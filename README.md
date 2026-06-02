@@ -1,7 +1,7 @@
 ## Hi there 👋
 
 # 💫 I'm Om Nadarkar:
-🌱 I’m currently learning Cloud Computing<br><br>💬 Ask me about Javascript, React, Node.js, MongoDB, REST API<br><br>📫 How to reach me omnadarkar1552@gmail.com<br><br>⚡ Fun fact Nothing...
+🌱 I’m currently learning Cloud Computing<br><br>💬 Ask me about Javascript, React, Node.js, MongoDB, REST API<br><br>📫 How to reach me omnadarkar1552@gmail.com<br><br>⚡ Portfolio: https://my-portfolio-4wsc.vercel.app/
 
 
 ## 🌐 Socials:
