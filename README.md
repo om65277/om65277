@@ -26,31 +26,31 @@ I enjoy working with cloud data services, distributed processing, and modern dat
 
 ### 1. Retail Data Engineering Pipeline
 
-* Developed a metadata-driven Azure Data Factory pipeline to ingest retail data from Azure SQL Database into ADLS Gen2.
-* Implemented incremental data loading using watermark-based processing.
-* Built Bronze, Silver, and Gold layers using CSV, Parquet, PySpark, and Delta Lake.
-* Created a Gold star schema with customer, product, and store dimensions and a sales fact table.
-* Calculated sales, cost, and profit metrics and explored analytical queries using Databricks SQL.
+**Technologies:** Azure Data Factory, Azure SQL Database, ADLS Gen2, Azure Databricks, PySpark, Delta Lake, Power BI
 
-**Technologies:** Azure Data Factory, ADLS Gen2, Azure Databricks, PySpark, Azure SQL Database, Delta Lake
+* Developed an end-to-end retail data pipeline to ingest customer, product, store, and transaction data from Azure SQL Database using Azure Data Factory.
+* Implemented metadata-driven and incremental data ingestion using Lookup, ForEach, Copy activities, and watermark-based processing.
+* Transformed and validated data using PySpark in Azure Databricks, following the Bronze, Silver, and Gold Medallion Architecture.
+* Built Gold-layer analytical datasets and a star schema to support business analysis using Databricks SQL and Power BI.
 
-### 2. E-commerce Medallion Architecture
+### 2. AdventureWorks Data Engineering Pipeline
 
-* Built a data engineering workflow using Databricks and PySpark to process e-commerce datasets.
-* Cleaned and transformed data across Bronze, Silver, and Gold layers.
-* Developed fact and dimension tables to support analytical queries and reporting.
+**Technologies:** Azure Data Factory, ADLS Gen2, Azure Databricks, PySpark, Azure Synapse Analytics, Power BI
 
-**Technologies:** Azure Databricks, PySpark, Delta Lake, Unity Catalog, SQL
+* Developed an end-to-end Azure data pipeline to ingest AdventureWorks CSV datasets from GitHub using parameterized HTTP Copy activities in Azure Data Factory.
+* Implemented Medallion Architecture by cleaning, filtering, standardizing, and transforming data with PySpark, storing curated datasets in Parquet format in the Silver layer.
+* Configured Azure Synapse Serverless SQL to query data in Azure Storage and created external tables and views for analytical reporting.
+* Connected the analytics layer to Power BI to support dashboard development and data visualization.
 
----
+### 3. NYC Taxi Data Engineering Pipeline
 
-## 📚 What I'm Currently Learning
+**Technologies:** Azure Data Factory, ADLS Gen2, Azure Databricks, PySpark, Delta Lake, Unity Catalog, Databricks SQL, Power BI
 
-* Advanced SQL and Python for data engineering
-* Apache Spark and distributed data processing
-* Incremental data loading and pipeline optimization
-* Data warehousing and dimensional modeling
-* Cloud data engineering best practices
+* Developed an end-to-end data pipeline to ingest NYC Taxi trip data using Azure Data Factory and store raw data in ADLS Gen2.
+* Implemented Bronze, Silver, and Gold Medallion Architecture to clean, transform, and organize taxi data using PySpark and Delta Lake.
+* Created Gold-layer analytical tables for trip, trip type, and zone analysis, using Databricks SQL for querying.
+* Configured Unity Catalog to manage data access and explored Delta Lake features, including table history and Time Travel, for data auditing and historical analysis.
+
 
 ---
 
